@@ -1,9 +1,9 @@
+# Streamlit application to analyze how lifestyle habits (sleep, screen time, activity, etc.)
+# affect mental and physical health (stress, happiness). The data comes from two CSV files
+# (mental_health.csv and smartwatch_health.csv), potentially AI-generated or enriched.
 
-Streamlit application to analyze how lifestyle habits (sleep, screen time, activity, etc.)
-affect mental and physical health (stress, happiness). The data comes from two CSV files
-(mental_health.csv and smartwatch_health.csv), potentially AI-generated or enriched.
 
-Author: Florian Boulay
+#Author: Florian Boulay
 
 
 import streamlit as st
