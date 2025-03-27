@@ -82,11 +82,13 @@ Variables:
     ```bash
     jupyter notebook Health_Analysis_Lifestyle.ipynb
     ```
-
+4. Run the streamlit app : 
+    ```bash
     streamlit run app.py
-
+⚠️ Make sure you are in the project folder before running the command.
     
-4. Run all cells to reproduce the analysis.
+  
+5. Run all cells to reproduce the analysis.
 
  📩 Contact
 
