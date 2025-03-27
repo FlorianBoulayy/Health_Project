@@ -15,14 +15,14 @@ import numpy as np
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 
-###############################################################################
+
 # STREAMLIT CONFIG - MUST BE FIRST
-###############################################################################
+
 st.set_page_config(page_title="Health & Lifestyle Insights App", layout="wide")
 
-###############################################################################
+
 # DATA LOADING AND PREPARATION
-###############################################################################
+
 
 # Add error handling for file loading
 @st.cache_data
@@ -92,9 +92,9 @@ section = st.sidebar.radio(
     ]
 )
 
-###############################################################################
+
 # SECTION 1: OVERVIEW
-###############################################################################
+
 if section == "1. Overview":
     st.header("📌 Project Overview")
     st.markdown(
@@ -112,9 +112,9 @@ if section == "1. Overview":
     st.info("The following columns are available in the dataset:\n" + 
             "\n".join([f"- {col}" for col in available_columns]))
 
-###############################################################################
+
 # SECTION 2: EXPLORE CORRELATIONS
-###############################################################################
+
 elif section == "2. Explore Correlations":
     st.header("🔍 Explore Lifestyle Correlations")
 
@@ -137,9 +137,9 @@ elif section == "2. Explore Correlations":
             fig2 = px.scatter(df, x=x_var, y=y_var, title=f"{y_var} vs {x_var}")
             st.plotly_chart(fig2, use_container_width=True)
 
-###############################################################################
+
 # SECTION 3: PERSONALIZED RECOMMENDATION
-###############################################################################
+
 elif section == "3. Personalized Recommendation":
     st.header("🌟 Personalized Well-being Tips")
 
@@ -167,7 +167,7 @@ elif section == "3. Personalized Recommendation":
     if activity == "Sedentary":
         st.info("Moving to at least moderate activity can improve both mood and stress levels.")
 
-###############################################################################
+
 # SECTION 4: COMPARE YOURSELF TO THE AVERAGE
 ###############################################################################
 elif section == "4. Compare Yourself to the Average":
@@ -227,7 +227,7 @@ elif section == "4. Compare Yourself to the Average":
     else:
         st.warning("Cannot display stress distribution: stress data not available in the dataset.")
 
-###############################################################################
+
 # SECTION 5: PREDICT YOUR HAPPINESS
 ###############################################################################
 elif section == "5. Predict Your Happiness":
