@@ -61,6 +61,7 @@ Variables:
 - `Health_Analysis_Lifestyle.py` → Executable Python script.
 - `mental_health.xlsx` → Processed mental health dataset.
 - `smartwatch_health.xlsx` → Processed biometric dataset.
+- `app.py`→ Streamlit app.
 - `README.md` → Project documentation (this file).
 
 ## 📌 How to Run the Project
