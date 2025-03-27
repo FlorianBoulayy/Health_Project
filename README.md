@@ -82,6 +82,9 @@ Variables:
     ```bash
     jupyter notebook Health_Analysis_Lifestyle.ipynb
     ```
+
+    streamlit run app.py
+
     
 4. Run all cells to reproduce the analysis.
 
