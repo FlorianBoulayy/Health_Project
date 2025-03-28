@@ -6,7 +6,7 @@ In today's fast-paced world, mental and physical health are deeply connected to 
 
 To achieve this, I conducted an in-depth data analysis using statistical methods and machine learning models. The project initially started with real-world data that I cleaned using SQL. However, due to missing values and structural limitations, I decided to generate a synthetic dataset using Artificial Intelligence (AI). The synthetic dataset was carefully designed to replicate the original structure, distributions, and relationships found in the cleaned dataset, allowing for a more precise and controlled analysis on Python.
 
-## 📌 Research Questions & Objectives
+## 🔎 Research Questions & Objectives
 
 - How do lifestyle habits impact stress, sleep, and health scores?
 - Does physical activity influence stress levels?
@@ -15,7 +15,7 @@ To achieve this, I conducted an in-depth data analysis using statistical methods
 
 By addressing these questions, this study aims to identify behavioral changes that can improve mental and physical well-being.
 
-## 📌 Data Sources & Structure
+## 📂Data Sources & Structure
 
 This study is based on two datasets, each containing key health and lifestyle variables:
 
@@ -62,8 +62,8 @@ Variables:
 
 ## 📌 Methodology & Approach
 
-1. 📊 Data Cleaning & Preprocessing: The initial dataset underwent cleaning in SQL, fixing missing values and inconsistencies before switching to AI-generated data.
-2. 📉 Exploratory Data Analysis (EDA): Visualized key trends and relationships using Python, Pandas Seaborn and Matplotlib.
+1. 🛠️ Data Cleaning & Preprocessing: The initial dataset underwent cleaning in SQL, fixing missing values and inconsistencies before switching to AI-generated data.
+2. 🧮 Exploratory Data Analysis (EDA): Visualized key trends and relationships using Python, Pandas Seaborn and Matplotlib.
 3. 📈 Statistical Analysis: Performed correlation analysis, ANOVA tests, and Tukey post-hoc tests to understand significant factors.
 4. 🤖 Machine Learning Model: Implemented a Random Forest Regressor to predict happiness based on lifestyle factors.
 5. 📊 Data Visualization: Developed insightful charts to illustrate findings.
@@ -71,12 +71,16 @@ Variables:
 ## 📌 Key Insights
 
 ✅ Stress levels are negatively correlated with sleep duration – those who sleep less tend to have higher stress. 
+
 ✅ Screen time is negatively associated with happiness – excessive screen time may reduce overall well-being. 
+
 ✅Physical activity has a complex relationship with stress – moderate activity levels correlate with lower stress, but extremes (too low or too high) may increase stress. 
+
 ✅ Heart rate is a significant indicator of stress – higher heart rates correlate with increased stress levels.
+
 ✅ Machine learning analysis identified stress level as the strongest predictor of happiness.
 
-## 📌 Project Structure
+## 📝 Project Structure
 
 - `Health_Analysis_Lifestyle.ipynb` → Jupyter Notebook with full analysis.
 - `Health_Analysis_Lifestyle.py` → Executable Python script.
@@ -85,7 +89,7 @@ Variables:
 - `app.py`→ Streamlit app.
 - `README.md` → Project documentation (this file).
 
-## 📌 How to Run the Project
+##  How to Run the Project
 
 1. Clone the repository:
     
