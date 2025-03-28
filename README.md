@@ -25,19 +25,40 @@ This dataset includes biometric and activity data collected from wearable device
 
 Variables:
 
-- User Information: `user_id` (Unique Identifier)
-- Biometric Data: `heart_rate_bpm`, `blood_oxygen_pct`, `step_count`, `sleep_duration_hrs`
-- Activity Levels: `activity_level` (Sedentary, Moderate, Active, Highly Active)
-- Screen Time & Work Hours: `screen_time_hours`, `work_hours_per_week`
+- `user_id`: Unique identifier for each individual  
+- `heart_rate_bpm`: Average heart rate (beats per minute)  
+- `blood_oxygen_pct`: Blood oxygen saturation (%)  
+- `step_count`: Total daily steps  
+- `sleep_duration_hrs`: Total sleep duration in hours  
+- `activity_level`: Physical activity level (categorical)  
+- `stress_level`: Measured stress level  
+- `stress_category`: Categorized stress level (e.g., Low, Moderate, High)  
+- `health_score`: Composite score reflecting overall physical health  
+- `health_category`: Categorized health status (e.g., Poor, Average, Good)  
+
 
 🧠 Mental Health Dataset
 
-This dataset captures self-reported mental well-being scores.
+This dataset contains self-reported mental health and lifestyle indicators.
 
 Variables:
 
-- Stress & Happiness Levels: `stress_level` (Scale: 1-10), `happiness_score` (Scale: 0-15)
-- Sleep & Social Interaction: `sleep_quality`, `social_interaction_score`
+- `country`: Country of residence  
+- `age`: Age of the individual  
+- `gender`: Gender  
+- `exercise_level`: Frequency or intensity of exercise  
+- `diet_type`: Type of diet followed  
+- `sleep_hours`: Average sleep duration per night  
+- `stress_level`: Self-reported stress level  
+- `stress_category`: Categorized stress level (Low, Moderate, High)  
+- `mental_health_condition`: Reported mental health condition (e.g., Anxiety, Depression, None)  
+- `work_hours_per_week`: Weekly work hours  
+- `screen_time_hours`: Daily screen time (in hours)  
+- `social_interaction_score`: Score reflecting social interaction or connectedness  
+- `happiness_score`: Self-reported happiness score  
+- `happiness_category`: Categorized happiness level (Low, Moderate, High)  
+- `interaction_category`: Category of social interaction (e.g., Low, Medium, High)  
+
 
 ## 📌 Methodology & Approach
 
