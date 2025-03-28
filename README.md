@@ -4,7 +4,7 @@
 
 In today's fast-paced world, mental and physical health are deeply connected to lifestyle choices. This project investigates how habits such as physical activity, sleep, and screen time influence stress and happiness levels. By leveraging smartwatch biometric data and self-reported mental health information, we aim to uncover key behavioral patterns that impact well-being.
 
-To achieve this, I conducted an in-depth data analysis using statistical methods and machine learning models. The project initially started with real-world data that I cleaned using SQL. However, due to missing values and structural limitations, I decided to generate a synthetic dataset using Artificial Intelligence (AI). The synthetic dataset was carefully designed to replicate the original structure, distributions, and relationships found in the cleaned dataset, allowing for a more precise and controlled analysis.
+To achieve this, I conducted an in-depth data analysis using statistical methods and machine learning models. The project initially started with real-world data that I cleaned using SQL. However, due to missing values and structural limitations, I decided to generate a synthetic dataset using Artificial Intelligence (AI). The synthetic dataset was carefully designed to replicate the original structure, distributions, and relationships found in the cleaned dataset, allowing for a more precise and controlled analysis on Python.
 
 ## 📌 Research Questions & Objectives
 
@@ -42,7 +42,7 @@ Variables:
 ## 📌 Methodology & Approach
 
 1. 📊 Data Cleaning & Preprocessing: The initial dataset underwent cleaning in SQL, fixing missing values and inconsistencies before switching to AI-generated data.
-2. 📉 Exploratory Data Analysis (EDA): Visualized key trends and relationships using Seaborn and Matplotlib.
+2. 📉 Exploratory Data Analysis (EDA): Visualized key trends and relationships using Python, Pandas Seaborn and Matplotlib.
 3. 📈 Statistical Analysis: Performed correlation analysis, ANOVA tests, and Tukey post-hoc tests to understand significant factors.
 4. 🤖 Machine Learning Model: Implemented a Random Forest Regressor to predict happiness based on lifestyle factors.
 5. 📊 Data Visualization: Developed insightful charts to illustrate findings.
